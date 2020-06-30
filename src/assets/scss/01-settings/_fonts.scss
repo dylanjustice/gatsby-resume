@@ -3,13 +3,13 @@
 \*------------------------------------*/
 
 $font-sizes: (
-    "largest": 42px,
-    "larger": 32px,
-    "large": 24px,
-    "base": 16px,
-    "small": 12px,
-    "smaller": 10px,
-    "smallest": 8px,
+  "largest": 42px,
+  "larger": 32px,
+  "large": 24px,
+  "base": 16px,
+  "small": 12px,
+  "smaller": 10px,
+  "smallest": 8px,
 );
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,400,400i,600,600i,800,800i&display=swap");
-$font-primary: "Montserrat", serif !default;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+$font-primary: "Open Sans", sans-serif !default;
