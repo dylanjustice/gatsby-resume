@@ -1,0 +1,27 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: $font-primary;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.o-application {
+    position: relative;
+    @include respond-to("medium") {
+        @include margin(152px null null null);
+    }
+    @include respond-to("small") {
+        @include margin(126px null null null);
+    }
+}

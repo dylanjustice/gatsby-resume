@@ -1,0 +1,51 @@
+/// Credit andculture
+/// https://github.com/AndcultureCode/andculture-website-netlify/blob/master/src/scss/02-tools/_functions.scss
+/// Adapted for e&e Technical Consultants
+
+// Color Functions
+// ------------------------------------
+
+@function get-color($palette: "primary", $color: "e-e-blue") {
+    @return map-get(map-get($colors, $palette), $color);
+}
+
+@function get-color-primary($color: "e-e-blue") {
+    @return get-color("primary", $color);
+}
+
+@function get-color-background($color: "primary") {
+    @return get-color("background", $color);
+}
+
+@function get-color-buttons($color: "primary") {
+    @return get-color("buttons", $color);
+}
+@function get-color-text($color: "dark") {
+    @return get-color("text", $color);
+}
+@function get-color-links($color: "primary") {
+    @return get-color("links", $color);
+}
+@function get-color-border($color: "primary") {
+    @return get-color("border", $color);
+}
+
+// Font Functions
+// ------------------------------------
+
+@function get-font-size($size: "base") {
+    @if not map-has-key($font-sizes, $size) {
+        @return $size;
+    }
+
+    @return map-get($font-sizes, $size);
+}
+
+// Icon Functions
+// ------------------------------------
+
+@function get-icon($icon) {
+    @return map-get($icons, $icon);
+}
+
+/// End credit andculture

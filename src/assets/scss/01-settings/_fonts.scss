@@ -1,0 +1,15 @@
+/*------------------------------------*\
+  SETTINGS - FONTS
+\*------------------------------------*/
+
+$font-sizes: (
+    "largest": 42px,
+    "larger": 32px,
+    "large": 24px,
+    "base": 16px,
+    "small": 12px,
+    "smaller": 10px,
+    "smallest": 8px,
+);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,400,400i,600,600i,800,800i&display=swap");
+$font-primary: "Montserrat", serif !default;

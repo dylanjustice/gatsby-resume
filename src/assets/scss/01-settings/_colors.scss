@@ -1,0 +1,35 @@
+/*------------------------------------*\
+  SETTINGS - COLORS
+\*------------------------------------*/
+
+$colors: (
+    "primary": (
+        "e-e-blue": #19388a,
+        "accent": #25aae2,
+    ),
+    "background": (
+        "primary": #ffffff,
+        "secondary": #ededed,
+        "tertiary": #19388a,
+        "accent": #25aae2,
+        "footer": #353a40,
+    ),
+    "buttons": (
+        "primary-fill": #1f3775,
+        "primary-color": #ffffff,
+        "secondary-fill": #25aae2,
+        "secondary-color": #ffffff,
+    ),
+    "text": (
+        "dark": #22273d,
+        "light": #7d7d7d,
+    ),
+    "links": (
+        "primary": #22273d,
+        "secondary": #ffffff,
+        "active": #87be2f,
+    ),
+    "border": (
+        "primary": #e7e7e7,
+    ),
+);
