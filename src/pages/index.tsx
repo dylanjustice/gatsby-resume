@@ -1,6 +1,7 @@
 import { graphql } from "gatsby";
 import * as React from "react";
 import "../assets/scss/app.scss";
+import ResumeLayout from "../components/templates/resume-layout";
 
 interface IndexPageProps {
   data: {
@@ -27,8 +28,7 @@ export const indexPageQuery = graphql`
 const IndexPageProps: React.FunctionComponent<IndexPageProps> = (props) => {
   return (
     <div className="o-application">
-      <h1>{props.data.site.siteMetadata.name}</h1>
-      <p>{props.data.site.siteMetadata.tagline}</p>
+      <ResumeLayout />
     </div>
   );
 };
