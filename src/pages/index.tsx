@@ -1,36 +1,47 @@
-import { graphql } from "gatsby";
 import * as React from "react";
 import "../assets/scss/app.scss";
 import ResumeLayout from "../components/templates/resume-layout";
 
-interface IndexPageProps {
-  data: {
-    site: {
-      siteMetadata: {
-        name: string;
-        tagline: string;
-      };
-    };
-  };
-}
+import { useStaticQuery, graphql } from "gatsby";
+import { MarkdownRemark } from "../models/markdown-remark";
 
-export const indexPageQuery = graphql`
-  query IndexPageQuery {
-    site {
-      siteMetadata {
-        name
-        tagline
+const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    {
+      markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+        frontmatter {
+          address
+          email
+          jobTitle
+          name
+          objectives
+          phone
+          skills
+          title
+          workExperience {
+            company
+            dates
+            location
+            responsibilities
+            title
+          }
+          education {
+            degree
+            location
+            school
+            year
+          }
+        }
       }
     }
-  }
-`;
+  `);
 
-const IndexPageProps: React.FunctionComponent<IndexPageProps> = (props) => {
+  const markdownRemark: MarkdownRemark = data.markdownRemark;
   return (
     <div className="o-application">
-      <ResumeLayout />
+      <ResumeLayout frontmatter={markdownRemark.frontmatter} />
     </div>
   );
 };
 
-export default IndexPageProps;
+export default IndexPage;
