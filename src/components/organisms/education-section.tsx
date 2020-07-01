@@ -11,7 +11,6 @@ const EducationSection: React.FunctionComponent<EducationSectionProps> = (
 ) => {
   return (
     <div className="o-education-section">
-      <h2 id="education">Education</h2>
       {props.educations?.map((education, index) => (
         <Degree key={index} {...education} />
       ))}

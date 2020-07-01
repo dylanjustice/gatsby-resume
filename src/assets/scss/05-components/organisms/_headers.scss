@@ -1,0 +1,13 @@
+.o-header {
+  display: flex;
+  background-color: get-color-background("secondary");
+  &__left {
+    width: 50%;
+  }
+  &__right {
+    flex: 1;
+    ul {
+      list-style: none;
+    }
+  }
+}

@@ -38,7 +38,7 @@ const IndexPage = () => {
 
   const markdownRemark: MarkdownRemark = data.markdownRemark;
   return (
-    <div className="o-application">
+    <div className="g-application">
       <ResumeLayout frontmatter={markdownRemark.frontmatter} />
     </div>
   );

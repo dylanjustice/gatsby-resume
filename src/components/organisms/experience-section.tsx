@@ -8,8 +8,8 @@ const ExperienceSection: React.FunctionComponent<WorkExperienceProps> = (
   props
 ) => {
   return (
-    <div>
-      <h2>{props.title}</h2>
+    <div className="o-experience-section">
+      <h3>{props.title}</h3>
       <p>
         <em>
           {props.company} / {props.location} / {props.dates}

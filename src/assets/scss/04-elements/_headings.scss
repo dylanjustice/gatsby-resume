@@ -1,0 +1,65 @@
+/*------------------------------------*\
+  HEADINGS
+\*------------------------------------*/
+
+h1 {
+  @include font-style(
+    $font-primary,
+    "largest",
+    get-color-text("dark"),
+    600,
+    50px
+  );
+}
+
+h2 {
+  @include font-style(
+    $font-primary,
+    "larger",
+    get-color-text("dark"),
+    600,
+    40px
+  );
+  @include margin(null null 16px null);
+}
+
+h3 {
+  @include font-style(
+    $font-primary,
+    "large",
+    get-color-text("dark"),
+    600,
+    32px
+  );
+  @include margin(null null 16px null);
+}
+
+h4 {
+  @include font-style(
+    $font-primary,
+    "small",
+    get-color-text("dark"),
+    600,
+    16px
+  );
+}
+
+h5 {
+  @include font-style(
+    $font-primary,
+    "smaller",
+    get-color-text("dark"),
+    600,
+    14px
+  );
+}
+
+h6 {
+  @include font-style(
+    $font-primary,
+    "smallest",
+    get-color-text("dark"),
+    600,
+    12px
+  );
+}

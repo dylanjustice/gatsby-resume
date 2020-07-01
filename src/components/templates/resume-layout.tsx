@@ -30,7 +30,7 @@ const ResumeLayout: React.FunctionComponent<ResumeProps> = (
   }
 
   return (
-    <React.Fragment>
+    <div className="t-resume-layout">
       <Header
         address={address}
         email={email}
@@ -38,17 +38,25 @@ const ResumeLayout: React.FunctionComponent<ResumeProps> = (
         name={name}
         phone={phone}
       />
-      <h2>Resume Objective</h2>
-      <Objectives objectives={objectives} />
-      <h2>Skills</h2>
-      <Skills skills={skills} />
-      <h2>Experience</h2>
-      {workExperience.map((exp, idx) => {
-        return <ExperienceSection key={idx} {...exp} />;
-      })}
-
-      <EducationSection educations={education} />
-    </React.Fragment>
+      <div className="t-resume-layout__section">
+        <h2>Resume Objective</h2>
+        <Objectives objectives={objectives} />
+      </div>
+      <div className="t-resume-layout__section">
+        <h2>Skills</h2>
+        <Skills skills={skills} />
+      </div>
+      <div className="t-resume-layout__section">
+        <h2>Experience</h2>
+        {workExperience.map((exp, idx) => {
+          return <ExperienceSection key={idx} {...exp} />;
+        })}
+      </div>
+      <div className="t-resume-layout__section">
+        <h2>Education</h2>
+        <EducationSection educations={education} />
+      </div>
+    </div>
   );
 };
 

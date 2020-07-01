@@ -1,0 +1,24 @@
+.t-resume-layout {
+  border-top: 16px solid get-color-background("tertiary");
+  border-bottom: 16px solid get-color-background("tertiary");
+  margin: 0 auto;
+  > .o-header {
+    @include padding(16px 40px);
+  }
+  &__section {
+    @include padding(16px 40px);
+
+    > .m-objectives {
+      @include padding(0 40px);
+    }
+    > .m-skills {
+      @include padding(0 40px);
+    }
+    > .o-experience-section {
+      @include margin(0 0 40px 0);
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -6,10 +6,12 @@ interface DegreeProps extends Education {}
 const Degree: React.FunctionComponent<DegreeProps> = (props) => {
   const { degree, school, location, year } = props;
   return (
-    <p>
-      <em>{degree}</em>
-      {school}, {year} {location}
-    </p>
+    <div className="m-degree">
+      <h3>{degree}</h3>
+      <p>
+        {school}, {year} {location}
+      </p>
+    </div>
   );
 };
 
