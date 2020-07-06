@@ -44,13 +44,13 @@ workExperience:
   title: Senior Software Engineer / Technical Lead
   responsibilities:
 
-  - Managed a team of direct reports consisting of 5 software engineers working on several different projects.
+  - Managing a team of direct reports consisting of 5 software engineers working on several different projects.
   - Enhanced and maintained a wide array of web applications supported by andculture, including web sites for UPMC Pinnacle, The PA Disciplinary Board, Administrative Office of Pennsylvania Courts and Commonwealth Charter Academy. Many were built using one of two homegrown Content Management Systems.
   - Built features to enhance custom learning management platform for Commonwealth Charter Academy using .NET Core Web API, MS SQL Server database and ReactJS frontend.
   - Provided detailed analysis and technical planning for prospective projects, including a print-to-digital solution currently in progress for the National Fire Protection Association.
-  - Developed the print-to-digital content product as a part of a team of 8 engineers running SCRUM to build .NET Core Web Api, MS SQL Server and ReactJS.
-  - Developed initial platform with onion architecture, Jenkins build agent, AWS elastic beanstalk and S3 CLI tools.
-  - Conducted regular code reviews as a member of the development team through Pull Request review system in Bitbucket and/or Github.
+  - Developing the print-to-digital content product as a part of a team of 8 engineers running SCRUM to build .NET Core Web Api, MS SQL Server and ReactJS.
+  - Developing initial platform with onion architecture, Jenkins build agent, AWS elastic beanstalk and S3 CLI tools.
+  - Conducting regular code reviews as a member of the development team through Pull Request review system in Bitbucket and/or Github.
 
 - company: Computer Aid Inc.
   location: Harrisburg, PA

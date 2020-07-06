@@ -1,10 +1,11 @@
 import * as React from "react";
-import { Frontmatter } from "../../models/frontmatter";
+
+import EducationSection from "../organisms/education-section";
+import ExperienceSection from "../organisms/experience-section";
+import Frontmatter from "../../models/frontmatter";
+import Header from "../organisms/header";
 import Objectives from "../molecules/objectives";
 import Skills from "../molecules/skills";
-import ExperienceSection from "../organisms/experience-section";
-import EducationSection from "../organisms/education-section";
-import Header from "../organisms/header";
 
 interface ResumeProps {
   frontmatter: Frontmatter;

@@ -1,15 +1,15 @@
 import { Education } from "./education";
 import { WorkExperience } from "./work-experience";
 
-export interface Frontmatter {
+export default interface Frontmatter {
   address: string;
-  education: Array<Education>;
+  education: Education[];
   email: string;
   jobTitle: string;
   name: string;
   phone: string;
   skills: string[];
   title: string;
-  workExperience: Array<WorkExperience>;
+  workExperience: WorkExperience[];
   objectives: string[];
 }
