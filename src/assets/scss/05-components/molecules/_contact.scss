@@ -1,0 +1,11 @@
+.m-contact {
+  @include margin(0 0 8px 0);
+  display: flex;
+  &__label {
+    font-weight: 700;
+    width: 25%;
+  }
+  &__value {
+    flex: 1;
+  }
+}

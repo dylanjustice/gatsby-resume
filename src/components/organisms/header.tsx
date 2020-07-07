@@ -1,4 +1,5 @@
 import * as React from "react";
+
 import { Contact } from "../../models/contact";
 
 interface HeaderProps extends Contact {}
@@ -12,17 +13,18 @@ const Header: React.FunctionComponent<HeaderProps> = (props) => {
         <h2>{jobTitle}</h2>
       </div>
       <div className="o-header__right">
-        <ul>
-          <li>
-            <strong>Email:</strong> {email}
-          </li>
-          <li>
-            <strong>Phone:</strong> {phone}
-          </li>
-          <li>
-            <strong>Address:</strong> {address}
-          </li>
-        </ul>
+        <div className="m-contact">
+          <div className="m-contact__label">Email:</div>
+          <div className="m-contact__value">{email}</div>
+        </div>
+        <div className="m-contact">
+          <div className="m-contact__label">Phone:</div>
+          <div className="m-contact__value">{phone}</div>
+        </div>
+        <div className="m-contact">
+          <div className="m-contact__label">Address:</div>
+          <div className="m-contact__value">{address}</div>
+        </div>
       </div>
     </header>
   );

@@ -18,4 +18,11 @@ body {
 }
 .g-application {
   position: relative;
+  margin: 0 auto;
+}
+@page :first {
+  margin: 1cm 0 2cm 0;
+}
+@page {
+  margin: 2cm 0cm;
 }

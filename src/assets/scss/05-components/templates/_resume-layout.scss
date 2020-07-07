@@ -1,12 +1,12 @@
 .t-resume-layout {
-  border-top: 16px solid get-color-background("tertiary");
-  border-bottom: 16px solid get-color-background("tertiary");
-  margin: 0 auto;
   > .o-header {
     @include padding(16px 40px);
   }
   &__section {
     @include padding(16px 40px);
+    > h2 {
+      border-bottom: 1px solid get-color-text("dark");
+    }
 
     > .m-objectives {
       @include padding(0 40px);

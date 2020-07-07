@@ -44,7 +44,7 @@ const ResumeLayout: React.FunctionComponent<ResumeProps> = (
         <Objectives objectives={objectives} />
       </div>
       <div className="t-resume-layout__section">
-        <h2>Skills</h2>
+        <h2>Technical Skills</h2>
         <Skills skills={skills} />
       </div>
       <div className="t-resume-layout__section">

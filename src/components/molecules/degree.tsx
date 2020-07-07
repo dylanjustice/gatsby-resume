@@ -1,4 +1,5 @@
 import * as React from "react";
+
 import { Education } from "../../models/education";
 
 interface DegreeProps extends Education {}
