@@ -6,7 +6,7 @@ name: Dylan C. Justice
 jobTitle: Software Engineer
 phone: (330) 472 9421
 email: dylanjustice41@gmail.com
-address: 17 Harpers Ferry Way Mechanicsburg, PA 17050
+address: Mechanicsburg, PA 17050
 objectives:
 
 - 8 years of professional experience building customized software solutions.
