@@ -12,7 +12,7 @@ objectives:
 - 8 years of professional experience building customized software solutions.
 - Uses a scientific approach to all solutions that present an opportunity for improvement.
 - Strong technical skills, organizational skills and very effective communication skills.
-- Willing to work directly with stakeholders and clients to provide the best services.
+- Work directly with stakeholders and clients to provide the best services.
 - Interested in growing experience in diverse systems architecture and developer automation tools.
 
 skills:
