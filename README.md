@@ -1,5 +1,10 @@
 # Gatsby Resume
 
+A place to maintain my resume using a simple GatsbyJS and Markdown.
+The application reads from `index.md`.
+
+Deployed to Netlify at https://djustice-resume.netlify.app/
+
 Technologies
 
 - GatsbyJS
