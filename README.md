@@ -1,11 +1,15 @@
-# Gatsby Starter: Typescript + SASS
-Starter with the essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site. This setup includes:
+# Gatsby Resume
 
+Technologies
+
+- GatsbyJS
+- React 16.8
 - Typescript
 - Typescript linting
-- SASS support
+- SCSS
 
-Install this starter by running this from your [Gatsby CLI](https://next.gatsbyjs.org/tutorial/part-zero/#install-the-gatsby-cli):
+This project was created from the gatsby starter using [Gatsby CLI](https://next.gatsbyjs.org/tutorial/part-zero/#install-the-gatsby-cli):
+
 ```
 gatsby new gatsby-site https://github.com/tdharmon/gatsby-starter-typescript-sass
 ```
