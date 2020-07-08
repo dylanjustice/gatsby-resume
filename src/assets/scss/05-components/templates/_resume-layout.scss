@@ -3,7 +3,7 @@
     @include padding(16px 40px);
   }
   &__section {
-    @include padding(16px 40px);
+    @include padding(12px 40px);
     > h2 {
       border-bottom: 1px solid get-color-text("dark");
     }

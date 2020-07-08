@@ -19,6 +19,10 @@ body {
 .g-application {
   position: relative;
   margin: 0 auto;
+  max-width: 8.5in;
+  -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
 }
 @page :first {
   margin: 0 0 2cm 0;
