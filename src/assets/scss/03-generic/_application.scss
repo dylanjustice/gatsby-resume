@@ -23,6 +23,11 @@ body {
   -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
+  @media print {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
 }
 @page :first {
   margin: 0 0 2cm 0;
