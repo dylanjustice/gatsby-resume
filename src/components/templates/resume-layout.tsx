@@ -1,11 +1,11 @@
 import * as React from "react";
 
-import EducationSection from "../organisms/education-section";
-import ExperienceSection from "../organisms/experience-section";
 import Frontmatter from "../../models/frontmatter";
-import Header from "../organisms/header";
 import Objectives from "../molecules/objectives";
 import Skills from "../molecules/skills";
+import EducationSection from "../organisms/education-section";
+import ExperienceSection from "../organisms/experience-section";
+import Header from "../organisms/header";
 
 interface ResumeProps {
   frontmatter: Frontmatter;
@@ -40,11 +40,11 @@ const ResumeLayout: React.FunctionComponent<ResumeProps> = (
         phone={phone}
       />
       <div className="t-resume-layout__section">
-        <h2>Resume Objective</h2>
+        <h2>Summary</h2>
         <Objectives objectives={objectives} />
       </div>
       <div className="t-resume-layout__section">
-        <h2>Technical Skills</h2>
+        <h2>Core Technical Skills</h2>
         <Skills skills={skills} />
       </div>
       <div className="t-resume-layout__section">

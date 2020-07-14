@@ -9,11 +9,10 @@ email: dylanjustice41@gmail.com
 address: Mechanicsburg, PA
 objectives:
 
-- 8 years of professional experience building customized software solutions.
-- Uses a scientific approach to all solutions that present an opportunity for improvement.
-- Strong technical skills, organizational skills and effective communication skills.
-- Works directly with stakeholders and clients to provide the best services.
-- Interested in growing experience in diverse systems architecture and developer automation tools.
+- Proven expertise in developing high quality software solutions and leading very effective engineering teams.
+- Demonstrated passion for improving processes for people, driven by technology. Complex problems don't necessarily call for complex solutions, and simple solutions can be game-changing, cost-saving strategies.
+- A team leader who prioritizes team efficiency through continuous improvement practices. Reducing lead times through automation, cloud infrastructure and superior and human systems.
+- Well spoken and polished communication skills, best suited for collaboration within focused teams and clients interesting in exceeding goals.
 
 skills:
 
