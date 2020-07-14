@@ -2,9 +2,7 @@ import * as React from "react";
 
 import { Contact } from "../../models/contact";
 
-interface HeaderProps extends Contact {}
-
-const Header: React.FunctionComponent<HeaderProps> = (props) => {
+const Header: React.FunctionComponent<Contact> = (props) => {
   const { name, jobTitle, email, phone, address } = props;
   return (
     <header className="o-header">

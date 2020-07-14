@@ -2,9 +2,7 @@ import * as React from "react";
 
 import { Education } from "../../models/education";
 
-interface DegreeProps extends Education {}
-
-const Degree: React.FunctionComponent<DegreeProps> = (props) => {
+const Degree: React.FunctionComponent<Education> = (props) => {
   const { degree, school, location, year } = props;
   return (
     <div className="m-degree">
