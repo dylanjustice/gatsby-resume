@@ -50,10 +50,10 @@ workExperience:
   - Built features to enhance custom learning management platform for Commonwealth Charter Academy using .NET Core Web API, MS SQL Server database and ReactJS frontend.
   - Conducted on-site consultation services in preparation for an RFP response with the National Fire Protection Association technical staff to build relationships and gain understanding of the architecture of the existing systems and applications.
   - Provided detailed analysis and technical planning for prospective projects, including a print-to-digital solution currently in progress for the National Fire Protection Association in preparation for an RFP response that resulted in a contract for the first phase of the project.
-  - Develop the print-to-digital content product as a part of a team of 8 engineers running SCRUM to build .NET Core Web Api, MS SQL Server and ReactJS.
+  - Develop the print-to-digital product as a part of a team of 8 engineers running SCRUM to build .NET Core Web Api, MS SQL Server and ReactJS. The API was built using Onion, or hexagonal architecture to
   - Managed AWS Cloud environments for working, staging and production environments. Applications were deployed using AWS Elastic Beanstalk, EC2 Windows Server and RDS MSSQL
   - Configured Multi-AZ NAT Gateway through AWS VPC for Elastic IP Whitelisting of outbound traffic to client web services.
-  - Develop initial platform with onion architecture, Jenkins build agent, AWS elastic beanstalk and S3 CLI tools.
+  - Leveraged cloud CI/CD tools to streamline and automate development workflow using Jenkins build agent, AWS elastic beanstalk and S3 CLI tools.
   - Conduct regular code reviews as a member of the development team through Pull Request review system in Bitbucket and/or Github.
 
 - company: Computer Aid Inc.
