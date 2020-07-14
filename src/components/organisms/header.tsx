@@ -22,7 +22,7 @@ const Header: React.FunctionComponent<HeaderProps> = (props) => {
           <div className="m-contact__value">{phone}</div>
         </div>
         <div className="m-contact">
-          <div className="m-contact__label">Address:</div>
+          <div className="m-contact__label">Location:</div>
           <div className="m-contact__value">{address}</div>
         </div>
       </div>

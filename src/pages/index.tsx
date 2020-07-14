@@ -1,8 +1,9 @@
-import * as React from "react";
 import "../assets/scss/app.scss";
-import ResumeLayout from "../components/templates/resume-layout";
 
-import { useStaticQuery, graphql } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
+import * as React from "react";
+
+import ResumeLayout from "../components/templates/resume-layout";
 import { MarkdownRemark } from "../models/markdown-remark";
 
 const IndexPage = () => {
