@@ -9,10 +9,10 @@ email: dylanjustice41@gmail.com
 address: Mechanicsburg, PA
 objectives:
 
-- Proven expertise in developing high quality software solutions and leading very effective engineering teams.
+- Proven expertise in developing high quality software solutions in a variety of technology stacks and leading very effective engineering teams.
 - Demonstrated passion for improving processes for people, driven by technology. Complex problems don't necessarily call for complex solutions, and simple solutions can be game-changing, cost-saving strategies.
 - A team leader who prioritizes team efficiency through continuous improvement practices. Reducing lead times through automation, cloud infrastructure and superior and human systems.
-- Well spoken and polished communication skills, best suited for collaboration within focused teams and clients interesting in exceeding goals.
+- Well spoken and polished communication skills, best suited for collaboration within focused teams and clients interested in exceeding goals.
 
 skills:
 
