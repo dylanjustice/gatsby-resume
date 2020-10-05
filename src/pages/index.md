@@ -16,25 +16,27 @@ objectives:
 
 skills:
 
-- C#
 - ASP.NET Core
 - ASP.NET Framework
-- MS SQL Server
-- PostgreSQL
-- Html5
-- Javascript
-- CSS3
-- SCSS
-- Windows Server
-- IIS 10
 - AWS CloudFormation
 - AWS Elastic Beanstalk
+- AWS RDS
 - AWS S3
-- Git
-- Jenkins
 - Azure Devops
 - Azure IaaS
+- C#
+- CSS3
+- Git
+- Html5
+- IIS 10
+- Javascript
+- Jenkins
+- MS SQL Server
+- PostgreSQL
+- SCSS
 - SQL Azure
+- Typescript
+- Windows Server
 
 workExperience:
 

@@ -2,6 +2,7 @@ import "../assets/scss/app.scss";
 
 import { graphql, useStaticQuery } from "gatsby";
 import * as React from "react";
+import { Helmet } from "react-helmet";
 
 import ResumeLayout from "../components/templates/resume-layout";
 import { MarkdownRemark } from "../models/markdown-remark";
@@ -40,6 +41,13 @@ const IndexPage = () => {
   const markdownRemark: MarkdownRemark = data.markdownRemark;
   return (
     <div className="g-application">
+      <Helmet>
+        <script
+          type="text/javascript"
+          async
+          src="//cdn.youracclaim.com/assets/utilities/embed.js"
+        />
+      </Helmet>
       <ResumeLayout frontmatter={markdownRemark.frontmatter} />
     </div>
   );

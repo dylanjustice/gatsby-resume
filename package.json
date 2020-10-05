@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.5.5",
+    "@types/react-helmet": "^6.1.0",
     "bourbon": "^7.0.0",
     "flexboxgrid-sass": "^8.0.5",
     "gatsby": "^2.13.28",

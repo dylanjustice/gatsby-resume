@@ -54,6 +54,15 @@ const ResumeLayout: React.FunctionComponent<ResumeProps> = (
         })}
       </div>
       <div className="t-resume-layout__section">
+        <h2>Certifications</h2>
+        <div
+          data-iframe-width="150"
+          data-iframe-height="270"
+          data-share-badge-id="37b51c02-0612-45e0-b9cc-68169d5b0f49"
+          data-share-badge-host="https://www.youracclaim.com"
+        />
+      </div>
+      <div className="t-resume-layout__section">
         <h2>Education</h2>
         <EducationSection educations={education} />
       </div>
