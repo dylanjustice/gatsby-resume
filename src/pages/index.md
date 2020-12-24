@@ -18,25 +18,22 @@ skills:
 
 - ASP.NET Core
 - ASP.NET Framework
-- AWS CloudFormation
-- AWS Elastic Beanstalk
-- AWS RDS
-- AWS S3
+- AWS Administration
+- Azure Administration
 - Azure Devops
-- Azure IaaS
 - C#
-- CSS3
+- CSS
+- Cypress.io
 - Git
 - Html5
-- IIS 10
 - Javascript
 - Jenkins
 - MS SQL Server
 - PostgreSQL
+- ReactJS
 - SCSS
-- SQL Azure
 - Typescript
-- Windows Server
+- Windows Server Administration
 
 workExperience:
 
@@ -58,6 +55,7 @@ workExperience:
   - Configured Multi-AZ NAT Gateway through AWS VPC for Elastic IP Whitelisting of outbound traffic to client web services.
   - Leveraged cloud CI/CD tools to streamline and automate development workflow using Jenkins build agent, AWS elastic beanstalk and S3 CLI tools.
   - Conduct regular code reviews as a member of the development team through Pull Request review system in Bitbucket and/or Github.
+  - Build and maintain end-to-end integration tests using Cypress.io Web UI testing framework
 
 - company: Computer Aid Inc.
   location: Harrisburg, PA
