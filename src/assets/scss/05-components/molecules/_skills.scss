@@ -1,5 +1,8 @@
 .m-skills {
   > ul {
     columns: 4;
+    li {
+      margin: auto;
+    }
   }
 }
