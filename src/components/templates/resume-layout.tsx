@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import AZ900 from "../../assets/images/microsoft-certified-azure-fundamentals.png";
 import Frontmatter from "../../models/frontmatter";
 import Objectives from "../molecules/objectives";
 import Skills from "../molecules/skills";
@@ -55,13 +55,10 @@ const ResumeLayout: React.FunctionComponent<ResumeProps> = (
       </div>
       <div className="t-resume-layout__section">
         <h2>Certifications</h2>
-        <div
-          data-iframe-width="150"
-          data-iframe-height="270"
-          data-share-badge-id="37b51c02-0612-45e0-b9cc-68169d5b0f49"
-          data-share-badge-host="https://www.youracclaim.com"
-        />
-      </div>
+        <a href="https://www.youracclaim.com/badges/37b51c02-0612-45e0-b9cc-68169d5b0f49/public_url">
+          <img src={AZ900} width={150} height={150} alt="AZ-900 Certification" />
+        </a>
+        </div>
       <div className="t-resume-layout__section">
         <h2>Education</h2>
         <EducationSection educations={education} />
