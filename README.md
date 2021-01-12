@@ -1,9 +1,10 @@
 # Gatsby Resume
 
-A place to maintain my resume using a simple GatsbyJS and Markdown.
-The application reads from `index.md`.
+https://resume.dylanjustice.com/
 
-Deployed to Netlify at https://djustice-resume.netlify.app/
+A place to maintain my resume using a simple GatsbyJS static site generator and a Markdown file.
+The application reads data from `index.md` and generates a pre-formatted resume. This document is
+optimized for printing as well as web view.
 
 Technologies
 
