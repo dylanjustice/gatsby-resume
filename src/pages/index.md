@@ -5,7 +5,7 @@ title: Dylan Justice Resume
 name: Dylan C. Justice
 jobTitle: Senior Software Engineer
 phone: (330) 472 9421
-email: dylanjustice41@gmail.com
+email: dylan@dylanjustice.com
 address: Mechanicsburg, PA
 objectives:
 
