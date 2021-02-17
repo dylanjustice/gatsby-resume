@@ -3,6 +3,9 @@
   display: flex;
   align-content: flex-start;
   justify-content: space-between;
+  @include respond-to("small") {
+    display: block;
+  }
   > .m-degree {
     flex-direction: column;
   }

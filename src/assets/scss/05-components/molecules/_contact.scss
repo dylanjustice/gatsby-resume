@@ -1,6 +1,9 @@
 .m-contact {
   @include margin(0 0 8px 0);
   display: flex;
+  @include respond-to("small") {
+    display: block;
+  }
   &__label {
     font-weight: 700;
     width: 25%;

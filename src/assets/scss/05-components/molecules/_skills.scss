@@ -1,6 +1,9 @@
 .m-skills {
   > ul {
     columns: 4;
+    @include respond-to("small") {
+      columns: 1;
+    }
     li {
       margin: auto;
     }
