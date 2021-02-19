@@ -1,7 +1,7 @@
 import * as React from "react";
 
-import Degree from "../molecules/degree";
 import { Education } from "../../models/education";
+import Degree from "../molecules/degree";
 
 interface EducationSectionProps {
   educations: Education[];
