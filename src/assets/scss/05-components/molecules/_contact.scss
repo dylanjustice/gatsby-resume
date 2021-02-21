@@ -4,6 +4,9 @@
   @include respond-to("small") {
     display: block;
   }
+  @media print {
+    display: flex;
+  }
   &__label {
     font-weight: 700;
     width: 25%;

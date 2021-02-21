@@ -6,6 +6,9 @@
   @include respond-to("small") {
     display: block;
   }
+  @media print {
+    display: flex;
+  }
   > .m-degree {
     flex-direction: column;
   }

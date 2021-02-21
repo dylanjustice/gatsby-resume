@@ -4,6 +4,9 @@
     @include respond-to("small") {
       columns: 1;
     }
+    @media print {
+      columns: 4;
+    }
     li {
       margin: auto;
     }
