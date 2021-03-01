@@ -3,7 +3,6 @@ import "../assets/scss/app.scss";
 import { graphql, useStaticQuery } from "gatsby";
 import * as React from "react";
 import { Helmet } from "react-helmet";
-
 import ResumeLayout from "../components/templates/resume-layout";
 import { MarkdownRemark } from "../models/markdown-remark";
 
@@ -60,6 +59,9 @@ const IndexPage = () => {
           href="/images/favicon-16x16.png"
         />
         <link rel="manifest" href="/assets/site.webmanifest" />
+        <title>Dylan Justice</title>
+        <meta name="description" content="A simple way to display and manage my resume" />
+        <meta name="keywords" content="Dylan Justice, resume, software engineer, CV, professional" />
       </Helmet>
       <ResumeLayout frontmatter={markdownRemark.frontmatter} />
     </div>
