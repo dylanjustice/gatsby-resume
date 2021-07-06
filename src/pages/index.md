@@ -9,10 +9,10 @@ email: dylan@dylanjustice.com
 address: Mechanicsburg, PA
 objectives:
 
--   Proven expertise in developing high quality software solutions in a variety of technology stacks and leading very effective engineering teams.
--   Demonstrated passion for improving processes for people, driven by technology. Complex problems don't necessarily call for complex solutions, and simple solutions can be game-changing, cost-saving strategies.
--   A team leader who prioritizes team efficiency through continuous improvement practices. Reducing lead times through automation, cloud infrastructure and superior and human systems.
--   Well spoken and polished communication skills, best suited for collaboration within focused teams and clients interested in exceeding goals.
+-   Proven experience developing high quality software solutions in a variety of technology stacks and leading highly effective engineering teams.
+-   Demonstrated a passion for using technology to make processes more efficient for people. Complex problems don't necessarily require complex solutions. Solutions that are simple can be cost-effective and game-changing.
+-   Creating a culture of continuous improvement is a priority for me as a team leader. I focus on reducing lead times through automation, cloud infrastructure, and human systems.
+-   I am well-spoken and have polished communication skills, making me ideal for teams and clients interested in exceeding their goals.
 
 skills:
 
