@@ -38,9 +38,19 @@ skills:
 
 workExperience:
 
+-   company: LexisNexis
+    location: Mechanicsburg, PA (Home Based)
+    dates: August 2021 - Present
+    title: Site Reliability Engineer
+    responsibilities:
+
+    -   Embedded on a team charged with establishing Azure architecture and best practices for the company at large.
+    -   Developed a secure, resilient solution using Azure resources all with Infrastructure as Code.
+    -   Developed Azure Devops pipelines for infrastructure as code (IaC) and application delivery to development, test and production environments.
+
 -   company: andculture
     location: Harrisburg, PA
-    dates: January 2018 - Present
+    dates: January 2018 - August 2021
     title: Senior Software Engineer / Technical Lead
     responsibilities:
 
