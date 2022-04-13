@@ -46,7 +46,8 @@ workExperience:
 
     -   Embedded on a team tasked with establishing Azure architecture and best practices for the company at large.
     -   Developed a highly secure, and technically resilient solution architecture using Azure resources all with Infrastructure as Code.
-    -   Developed Azure Devops pipelines for infrastructure as code (IaC) and application delivery to development, test and production environments.
+    -   Developed Azure Devops pipelines for infrastructure as code (IaC) and application delivery to development, test and production environments. Pipeline strategy was standardized using templates and replicated for each application.
+    -   Leveraged Azure App Service, Deployment slots, and custom health checks to minimize the possibility of downtime during deployments in all environments.
     -   Implemented Unit and Integration testing framework for .NET 5 API Development team and assisted adoption.
     -   Integrated Datadog APM and Azure Infrastructure monitoring into the team's operational plan. Created alerting strategy for observability and incident escalation.
     -   Improved logging for .NET applications by streaming important errors to Datadog.
