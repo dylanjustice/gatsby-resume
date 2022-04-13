@@ -7,9 +7,9 @@ The application reads data from `index.md` and generates a pre-formatted resume.
 optimized for printing as well as web view.
 
 Technologies
-
-- GatsbyJS
-- React 16.8
+- Node 14.17.4+
+- GatsbyJS 4
+- React 18
 - Typescript
 - Typescript linting
 - SCSS
