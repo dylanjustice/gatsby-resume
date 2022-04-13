@@ -48,8 +48,8 @@ workExperience:
     -   Developed a highly secure, and technically resilient solution architecture using Azure resources all with Infrastructure as Code.
     -   Developed Azure Devops pipelines for infrastructure as code (IaC) and application delivery to development, test and production environments.
     -   Implemented Unit and Integration testing framework for .NET 5 API Development team and assisted adoption.
-    -   Integrated Datadog APM and Azure Infrastructure monitoring into the team's operational plan. Created alerts for observability into the individual components.
-    -   Improved logging for .NET applications by streaming important errors to datadog.
+    -   Integrated Datadog APM and Azure Infrastructure monitoring into the team's operational plan. Created alerting strategy for observability and incident escalation.
+    -   Improved logging for .NET applications by streaming important errors to Datadog.
 
 -   company: andculture
     location: Harrisburg, PA
