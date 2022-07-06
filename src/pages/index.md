@@ -30,6 +30,7 @@ skills:
 -   Jenkins
 -   MS SQL Server
 -   PostgreSQL
+-   Python
 -   ReactJS
 -   SCSS
 -   Terraform
