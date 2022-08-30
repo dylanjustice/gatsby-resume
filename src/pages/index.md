@@ -20,6 +20,7 @@ skills:
 -   ASP.NET Framework
 -   AWS Administration
 -   Azure Administration
+-   AWS Lambda
 -   Azure Devops
 -   C#
 -   CSS
@@ -52,6 +53,9 @@ workExperience:
     -   Implemented Unit and Integration testing framework for .NET 5 API Development team and assisted adoption.
     -   Integrated Datadog APM and Azure Infrastructure monitoring into the team's operational plan. Created alerting strategy for observability and incident escalation.
     -   Improved logging for .NET applications by streaming important errors to Datadog.
+    -   Automated procedure for suspending abusive users for the Operations teams in order to reduce mean time to respond.
+    -   Served as Incident Commander on-call for the global platform, responsible for leading the technical resolution of production issues impacting reliability, availability and performance.
+    -   Led retrospective analyses of major incidents to drive improvement to our incident response as an organization.
 
 -   company: andculture
     location: Harrisburg, PA
