@@ -2,7 +2,6 @@ import "../assets/scss/app.scss";
 
 import { graphql, useStaticQuery } from "gatsby";
 import * as React from "react";
-import { Helmet } from "react-helmet";
 import ResumeLayout from "../components/templates/resume-layout";
 import { MarkdownRemark } from "../models/markdown-remark";
 
@@ -76,4 +75,5 @@ export const Head = () => (
         />
     </React.Fragment>
 );
+
 export default IndexPage;
