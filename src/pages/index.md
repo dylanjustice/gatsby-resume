@@ -56,6 +56,9 @@ workExperience:
     -   Automated procedure for suspending abusive users for the Operations teams in order to reduce mean time to respond.
     -   Served as Incident Commander on-call for the global platform, responsible for leading the technical resolution of production issues impacting reliability, availability and performance.
     -   Led retrospective analyses of major incidents to drive improvement to our incident response as an organization.
+    -   Developed and led the proof-of-concept team for a backstage developer portal and software catalog. Deployed using AWS ECS, RDS Aurora Postgres and other supporting infrastructure. Owned the application's operational readiness by instrumenting the service for datadog tracing and monitoring, cloudwatch alarms, troubleshooting playbooks, documentation, and escalation paths.
+    -   Wrote a detailed proposal for adoption of Hashicorp Consul service mesh into the organization's infrastructure and presented to leadership.
+    -   Presented the benefits and adoption process of trunk-based development at the company's global tech conference. The topic included personal experience with adoption, feature flags, branching by abstraction, modification of CI/CD strategy, and required mindset changes.
 
 -   company: andculture
     location: Harrisburg, PA
