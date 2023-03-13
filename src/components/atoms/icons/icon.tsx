@@ -18,7 +18,7 @@ interface IconProps {
 // -----------------------------------------------------------------------------------------
 
 const Icon: React.FunctionComponent<IconProps> = (props: IconProps) => {
-    let cssClassNames = [];
+    const cssClassNames = [];
 
     cssClassNames.push("c-icon");
     if (props.cssClassName) {
@@ -29,12 +29,8 @@ const Icon: React.FunctionComponent<IconProps> = (props: IconProps) => {
         (x: SvgIcon) => x.key === props.type
     ) as SvgIcon;
 
-    if (icon == null) {
-        return <i></i>;
-    }
-    if (icon.src == null) {
-        console.error(`icon.src is ${icon.src}`);
-        return <i></i>;
+    if (icon == null || icon.src == null) {
+        return <i />;
     }
 
     return React.createElement(icon.src, {

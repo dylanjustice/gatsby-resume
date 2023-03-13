@@ -31,5 +31,16 @@ module.exports = {
                 },
             },
         },
+        {
+            resolve: "gatsby-plugin-google-tagmanager",
+            options: {
+                id: "GTM-MVXV58X",
+                includeInDevelopment: false,
+                defaultDataLayer: {
+                    platform: "gatsby",
+                },
+                enableWebVitalsTracking: true,
+            },
+        },
     ],
 };
