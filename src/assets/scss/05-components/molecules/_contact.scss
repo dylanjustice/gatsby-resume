@@ -1,17 +1,23 @@
 .m-contact {
-  @include margin(0 0 8px 0);
-  display: flex;
-  @include respond-to("small") {
-    display: block;
-  }
-  @media print {
+    @include margin(0 0 8px 0);
     display: flex;
-  }
-  &__label {
-    font-weight: 700;
-    width: 25%;
-  }
-  &__value {
-    flex: 1;
-  }
+    @include respond-to("small") {
+        display: block;
+    }
+    @media print {
+        display: flex;
+    }
+    &__label {
+        font-weight: 700;
+        width: 25%;
+    }
+    &__value {
+        flex: 1;
+    }
+    &__links {
+        a {
+            font-size: 12px;
+            margin-left: 8px;
+        }
+    }
 }

@@ -18,6 +18,11 @@ const IndexPage = () => {
                     phone
                     skills
                     title
+                    links {
+                        name
+                        url
+                        icon
+                    }
                     workExperience {
                         company
                         dates

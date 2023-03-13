@@ -1,29 +1,33 @@
 .o-header {
-  border-bottom: 8px solid get-color-primary("e-e-blue");
-  display: flex;
-  background-color: get-color-background("secondary");
-
-  @include respond-to("small") {
-    display: block;
-  }
-  @media print {
+    border-bottom: 8px solid get-color-primary("e-e-blue");
     display: flex;
-  }
+    flex-wrap: wrap;
+    background-color: get-color-background("secondary");
 
-  &__left {
-    width: 50%;
     @include respond-to("small") {
-      width: 100%;
+        display: block;
     }
     @media print {
-      width: 50%;
+        display: flex;
     }
-  }
-  &__right {
-    font-size: 16px;
-    flex: 1;
-    ul {
-      list-style: none;
+
+    &__left {
+        width: 50%;
+        @include respond-to("small") {
+            width: 100%;
+        }
+        @media print {
+            width: 50%;
+        }
     }
-  }
+    &__right {
+        font-size: 16px;
+        width: 50%;
+        ul {
+            list-style: none;
+        }
+    }
+    &__full {
+        width: 100%;
+    }
 }

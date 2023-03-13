@@ -1,0 +1,18 @@
+.m-links {
+    ul {
+        list-style-type: none;
+        columns: 2;
+        @include respond-to("small") {
+            columns: 1;
+        }
+    }
+    li {
+        margin-bottom: 8px;
+    }
+    a {
+        margin-left: 8px;
+    }
+    svg {
+        vertical-align: text-bottom;
+    }
+}

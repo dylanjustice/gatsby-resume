@@ -7,6 +7,20 @@ jobTitle: Senior Software Engineer
 phone: (330) 472 9421
 email: dylan@dylanjustice.com
 address: Mechanicsburg, PA
+links:
+    - name: Linkedin
+      url: https://www.linkedin.com/in/dylan-c-justice/
+      icon: LinkedIn
+    - name: Github
+      url: https://github.com/dylanjustice
+      icon: Github
+    - name: Profile
+      url: https://blog.dylanjustice.com
+      icon: Earth
+    - name: Resume
+      url: https://resume.dylanjustice.com
+      icon: Profile
+
 objectives:
 
 -   Proven experience developing high quality software solutions in a variety of technology stacks and leading highly effective engineering teams.
@@ -52,13 +66,14 @@ workExperience:
     -   Leveraged Azure App Service, Deployment slots, and custom health checks to minimize the possibility of downtime during deployments in all environments.
     -   Implemented Unit and Integration testing framework for .NET 5 API Development team and assisted adoption.
     -   Integrated Datadog APM and Azure Infrastructure monitoring into the team's operational plan. Created alerting strategy for observability and incident escalation.
-    -   Implemented structured logging pattern for backend applications. Integrated with Datadog for log ingestion.
+    -   Implemented structured logging pattern for backend applications. Integrated with Datadog for log ingestion to correlate important messages with traces.
     -   Automated procedure for suspending abusive users for the Operations teams in order to reduce mean time to respond.
     -   Served as Incident Commander on-call for the global platform, responsible for leading the technical resolution of production issues impacting reliability, availability and performance.
     -   Led retrospective analyses of major incidents to drive improvement to our incident response as an organization.
     -   Developed and led the proof-of-concept team for a backstage developer portal and software catalog. Deployed using AWS ECS, RDS Aurora Postgres and other supporting infrastructure. Owned the application's operational readiness by instrumenting the service for datadog tracing and monitoring, cloudwatch alarms, troubleshooting playbooks, documentation, and escalation paths.
     -   Wrote a detailed proposal for adoption of Hashicorp Consul service mesh into the organization's infrastructure and presented to leadership.
     -   Presented the benefits and adoption process of trunk-based development at the company's global tech conference. The topic included personal experience with adoption, feature flags, branching by abstraction, modification of CI/CD strategy, and required mindset changes.
+    -   Developed a mechanism for sharing terraform infrastructure-as-code modules across the organization using an Artifactory private terraform registry, including deployment pipelines, integration testing with [terratest](https://terratest.gruntwork.io/), and documentation of the SDLC.
 
 -   company: andculture
     location: Harrisburg, PA
