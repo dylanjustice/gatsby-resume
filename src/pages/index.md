@@ -26,7 +26,7 @@ objectives:
 -   Operationally focused software engineer with a passion for building, deploying and running software in production.
 -   Skilled cloud engineer with experience building out architectures and deploying resilient applications in AWS and Azure.
 -   Proven experience developing high quality software solutions from scratch in a variety of technology stacks and leading highly effective engineering teams.
--   Demonstrated a passion for using technology to make processes more efficient for people. Complex problems don't necessarily require complex solutions. Solutions that are simple can be cost-effective and game-changing.
+-   Enthusiastic about using technology to make processes more efficient for people. Complex problems don't necessarily require complex solutions. Solutions that are simple can be cost-effective and game-changing.
 -   Creating a culture of continuous improvement is a priority for me as a team leader. I focus on reducing lead times through automation, cloud infrastructure, and human systems.
 -   I'm well-spoken and have polished communication skills, making me ideal for teams and clients interested in exceeding their goals.
 -   Amateur technology blogger. Novice bartender. Watersports enthusiast.
@@ -121,7 +121,7 @@ workExperience:
     -   Rolled out initial application release to cloud and on-premise infrastructure. Assisted client organizations with installation of offline application on field user hardware.
     -   Mentored and led a team of 8 software developers in development efforts and process improvement.
     -   Automated builds for each check in across three supported application versions, verifying the application would build and all stored procedures would execute successfully using Azure Devops and Powershell scripts.
-    -   Implemented nightly releases for the last successful build through Azure Devops, eliminating the need for a lead engineer to manually update more than 20 working environments and allowing QA to rely on application version and build number to determine what work was completed.
+    -   Implemented nightly automated releases for the last successful build through Azure Devops, eliminating the need for a lead engineer to manually update more than 20 working environments and allowing QA to rely on application version and build number to determine what work was completed.
     -   Streamlined and simplified release process for deployment team Azure Devops and a custom tool for managing DML SQL Scripts. This eliminated human error in production deployments and saved time and frustration for product ownership in understanding what issues were released between versions.
     -   Developed a Web API using ASP.NET MVC Architecture to allow users to submit photos associated with the inspection via an Android app. Utilized Owin Token based authentication, Unity MVC Dependency injection, Entity Framework 6 and AutoMapper object-object mapping. The API was used as a bolt on to the existing web app as a starting point for modernizing the Web Forms application.
     -   Managed application deployments for all on-prem and cloud hosted (Xtium) implementations staging environments and production environments.
