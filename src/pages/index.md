@@ -23,34 +23,47 @@ links:
 
 objectives:
 
--   Proven experience developing high quality software solutions in a variety of technology stacks and leading highly effective engineering teams.
+-   Operationally focused software engineer with a passion for building, deploying and running software in production.
+-   Skilled cloud engineer with experience building out architectures and deploying resilient applications in AWS and Azure.
+-   Proven experience developing high quality software solutions from scratch in a variety of technology stacks and leading highly effective engineering teams.
 -   Demonstrated a passion for using technology to make processes more efficient for people. Complex problems don't necessarily require complex solutions. Solutions that are simple can be cost-effective and game-changing.
 -   Creating a culture of continuous improvement is a priority for me as a team leader. I focus on reducing lead times through automation, cloud infrastructure, and human systems.
--   I am well-spoken and have polished communication skills, making me ideal for teams and clients interested in exceeding their goals.
+-   I'm well-spoken and have polished communication skills, making me ideal for teams and clients interested in exceeding their goals.
+-   Amateur technology blogger. Novice bartender. Watersports enthusiast.
 
 skills:
 
+-   .NET 5/6/7
+-   Artifactory
 -   ASP.NET Core
 -   ASP.NET Framework
 -   AWS Administration
--   Azure Administration
+-   AWS Cloud Development
+-   AWS Cloudformation
 -   AWS Lambda
+-   Azure Administration
+-   Azure ARM Templates
+-   Azure Cloud Development
 -   Azure Devops
 -   C#
 -   CSS
 -   Cypress.io
+-   Datadog
 -   Git
 -   Html5
 -   Javascript
 -   Jenkins
+-   Linux Administration
 -   MS SQL Server
 -   PostgreSQL
 -   Python
 -   ReactJS
 -   SCSS
+-   Splunk
 -   Terraform
+-   Terratest
 -   Typescript
--   Windows Server Administration
+-   Windows Administration
 
 workExperience:
 
@@ -61,7 +74,7 @@ workExperience:
     responsibilities:
 
     -   Embedded on a team tasked with establishing Azure architecture and best practices for the company at large.
-    -   Developed a highly secure, and technically resilient solution architecture using Azure resources all with Infrastructure as Code.
+    -   Developed a highly secure, and technically resilient solution architecture using Azure resources all using terraform and ARM templates.
     -   Developed Azure Devops pipelines for infrastructure as code (IaC) and application delivery to development, test and production environments. Pipeline strategy was standardized using templates and replicated for each application.
     -   Leveraged Azure App Service, Deployment slots, and custom health checks to minimize the possibility of downtime during deployments in all environments.
     -   Implemented Unit and Integration testing framework for .NET 5 API Development team and assisted adoption.
