@@ -8,18 +8,19 @@ phone: (330) 472 9421
 email: dylan@dylanjustice.com
 address: Mechanicsburg, PA
 links:
-    - name: Linkedin
-      url: https://www.linkedin.com/in/dylan-c-justice/
-      icon: LinkedIn
-    - name: Github
-      url: https://github.com/dylanjustice
-      icon: Github
-    - name: Profile
-      url: https://blog.dylanjustice.com
-      icon: Earth
-    - name: Resume
-      url: https://resume.dylanjustice.com
-      icon: Profile
+
+-   name: Linkedin
+    url: https://www.linkedin.com/in/dylan-c-justice/
+    icon: LinkedIn
+-   name: Github
+    url: https://github.com/dylanjustice
+    icon: Github
+-   name: Profile
+    url: https://blog.dylanjustice.com
+    icon: Earth
+-   name: Resume
+    url: https://resume.dylanjustice.com
+    icon: Profile
 
 objectives:
 
@@ -33,28 +34,24 @@ objectives:
 
 skills:
 
--   .NET 5/6/7
 -   Artifactory
--   ASP.NET Core
--   ASP.NET Framework
--   AWS Administration
--   AWS Cloud Development
--   AWS Cloudformation
--   AWS Lambda
--   Azure Administration
--   Azure ARM Templates
--   Azure Cloud Development
+-   ArgoCD
+-   AWS Cloud Platform
+-   Azure Cloud Platform
+-   AWS DocumentDB
 -   Azure Devops
--   C#
+-   C# (dotnet)
 -   CSS
+-   Coralogix
 -   Cypress.io
 -   Datadog
+-   Event Driven Architectures
 -   Git
--   Html5
 -   Javascript
 -   Jenkins
 -   Linux Administration
 -   MS SQL Server
+-   OpenTelemetry
 -   PostgreSQL
 -   Python
 -   ReactJS
@@ -70,23 +67,25 @@ workExperience:
 -   company: LexisNexis
     location: Mechanicsburg, PA (Home Based)
     dates: August 2021 - Present
-    title: Site Reliability Engineer
+    title: Consulting Site Reliability Engineer
     responsibilities:
 
+    -   Served as Incident Commander on-call for the global platform, responsible for leading the technical resolution of production issues impacting reliability, availability and performance.
+    -   Led the SRE team in subject matter expertise for our AI based products using AWS Bedrock and Azure OpenAI. Handled operational readiness for regionalized migration from us-east-1 to eu-west-2, eu-west-3, and ap-southeast-2.
+    -   Developed and maintained an event driven system for piping events from cloudwatch, azure, splunk and coralogix to a common format for processing and forwarding to tickets and automated responses to alarms.
+    -   Led retrospective analyses of major incidents to drive improvement to our incident response as an organization.
+    -   Implemented standardized instrumentation process for AWS Lambda functions to our Coralogix platform, enabling APM instrumentation and increased observability of our serverless architecture across the organization.
+    -   Developed a mechanism for sharing terraform infrastructure-as-code modules across the organization using an Artifactory private terraform registry, including deployment pipelines, integration testing with [terratest](https://terratest.gruntwork.io/), and documentation of the SDLC.
+    -   Implemented central OpenTelemetry collector cluster on Amazon ECS with standardized ingestion rules for our migration from Datadog to Coralogix on OpenTelemetry.
+    -   Automated procedure for suspending abusive users for the Operations teams in order to reduce mean time to respond.
+    -   Implemented internal developer portal using Backstage framework to promote standardization of software projects, improved technical documentation and improved awareness of our software catalog.
     -   Embedded on a team tasked with establishing Azure architecture and best practices for the company at large.
-    -   Developed a highly secure, and technically resilient solution architecture using Azure resources all using terraform and ARM templates.
-    -   Developed Azure Devops pipelines for infrastructure as code (IaC) and application delivery to development, test and production environments. Pipeline strategy was standardized using templates and replicated for each application.
+    -   Developed a platform architecture for a team developing a MS Teams assistant in Azure, with emphasis on customer data security.
+    -   Developed standardized Azure Devops pipelines for infrastructure as code (IaC) and application delivery to development, test and production environments.
     -   Leveraged Azure App Service, Deployment slots, and custom health checks to minimize the possibility of downtime during deployments in all environments.
     -   Implemented Unit and Integration testing framework for .NET 5 API Development team and assisted adoption.
     -   Integrated Datadog APM and Azure Infrastructure monitoring into the team's operational plan. Created alerting strategy for observability and incident escalation.
     -   Implemented structured logging pattern for backend applications. Integrated with Datadog for log ingestion to correlate important messages with traces.
-    -   Automated procedure for suspending abusive users for the Operations teams in order to reduce mean time to respond.
-    -   Served as Incident Commander on-call for the global platform, responsible for leading the technical resolution of production issues impacting reliability, availability and performance.
-    -   Led retrospective analyses of major incidents to drive improvement to our incident response as an organization.
-    -   Developed and led the proof-of-concept team for a backstage developer portal and software catalog. Deployed using AWS ECS, RDS Aurora Postgres and other supporting infrastructure. Owned the application's operational readiness by instrumenting the service for datadog tracing and monitoring, cloudwatch alarms, troubleshooting playbooks, documentation, and escalation paths.
-    -   Wrote a detailed proposal for adoption of Hashicorp Consul service mesh into the organization's infrastructure and presented to leadership.
-    -   Presented the benefits and adoption process of trunk-based development at the company's global tech conference. The topic included personal experience with adoption, feature flags, branching by abstraction, modification of CI/CD strategy, and required mindset changes.
-    -   Developed a mechanism for sharing terraform infrastructure-as-code modules across the organization using an Artifactory private terraform registry, including deployment pipelines, integration testing with terratest(https://terratest.gruntwork.io/), and documentation of the SDLC.
 
 -   company: andculture
     location: Harrisburg, PA
