@@ -1,14 +1,14 @@
 .m-skills {
-  > ul {
-    columns: 4;
-    @include respond-to("small") {
-      columns: 1;
+    > ul {
+        columns: 4;
+        @include respond-to("small") {
+            columns: 1;
+        }
+        @media print {
+            columns: 4;
+        }
+        li {
+            margin: auto;
+        }
     }
-    @media print {
-      columns: 4;
-    }
-    li {
-      margin: auto;
-    }
-  }
 }

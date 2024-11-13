@@ -1,38 +1,38 @@
 *,
 *:after,
 *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: $font-primary;
-  font-size: 12px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: $font-primary;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .g-application {
-  position: relative;
-  margin: 0 auto;
-  max-width: 8.5in;
-  -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
-  @media print {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-  }
+    position: relative;
+    margin: 0 auto;
+    max-width: 8.5in;
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.75);
+    @media print {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+    }
 }
 @page :first {
-  margin: 0 0 2cm 0;
+    margin: 0 0 2cm 0;
 }
 @page {
-  margin: 2cm 0cm;
+    margin: 2cm 0cm;
 }

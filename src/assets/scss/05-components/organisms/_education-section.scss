@@ -1,15 +1,15 @@
 .o-education-section {
-  @include margin(auto auto 24px auto);
-  display: flex;
-  align-content: flex-start;
-  justify-content: space-between;
-  @include respond-to("small") {
-    display: block;
-  }
-  @media print {
+    @include margin(auto auto 24px auto);
     display: flex;
-  }
-  > .m-degree {
-    flex-direction: column;
-  }
+    align-content: flex-start;
+    justify-content: space-between;
+    @include respond-to("small") {
+        display: block;
+    }
+    @media print {
+        display: flex;
+    }
+    > .m-degree {
+        flex-direction: column;
+    }
 }

@@ -1,6 +1,6 @@
 export interface Education {
-  degree: string;
-  school: string;
-  year: string;
-  location: string;
+    degree: string;
+    school: string;
+    year: string;
+    location: string;
 }

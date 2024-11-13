@@ -26,7 +26,7 @@ const Icon: React.FunctionComponent<IconProps> = (props: IconProps) => {
     }
 
     const icon: SvgIcon = SvgIcons.find(
-        (x: SvgIcon) => x.key === props.type
+        (x: SvgIcon) => x.key === props.type,
     ) as SvgIcon;
 
     if (icon == null || icon.src == null) {

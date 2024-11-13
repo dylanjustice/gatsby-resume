@@ -14,7 +14,7 @@ interface ResumeProps {
 }
 
 const ResumeLayout: React.FunctionComponent<ResumeProps> = (
-    props: ResumeProps
+    props: ResumeProps,
 ) => {
     const {
         education,
