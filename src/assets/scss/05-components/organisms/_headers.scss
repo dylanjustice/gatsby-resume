@@ -12,17 +12,17 @@
     }
 
     &__left {
-        width: 50%;
+        width: 60%;
         @include respond-to("small") {
             width: 100%;
         }
         @media print {
-            width: 50%;
+            width: 60%;
         }
     }
     &__right {
         font-size: 16px;
-        width: 50%;
+        width: 40%;
         ul {
             list-style: none;
         }

@@ -10,6 +10,7 @@
     &__label {
         font-weight: 700;
         width: 25%;
+        @include margin(0 8px 0 0);
     }
     &__value {
         flex: 1;

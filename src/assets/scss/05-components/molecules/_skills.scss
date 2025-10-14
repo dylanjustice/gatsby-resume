@@ -1,11 +1,11 @@
 .m-skills {
     > ul {
-        columns: 4;
+        columns: 3;
         @include respond-to("small") {
             columns: 1;
         }
         @media print {
-            columns: 4;
+            columns: 3;
         }
         li {
             margin: auto;

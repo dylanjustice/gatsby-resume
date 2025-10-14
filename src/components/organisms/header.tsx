@@ -9,7 +9,7 @@ const Header: React.FunctionComponent<Contact> = (props) => {
         <header className="o-header">
             <div className="o-header__left">
                 <h1>{name}</h1>
-                <h2>{jobTitle}</h2>
+                <h3>{jobTitle}</h3>
             </div>
             <div className="o-header__right">
                 <div className="m-contact">
