@@ -38,7 +38,7 @@ skills:
     - Golang / Python / C# (.NET)
     - Event Driven Architectures
     - Observability / Incident Management
-    - Git / Linux Administration
+    - Linux Administration / Windows Administration
     - PostgreSQL / MS SQL Server
 
 workExperience:
