@@ -1,7 +1,9 @@
+@use "../../02-tools/mixins";
+
 .m-skills {
     > ul {
         columns: 3;
-        @include respond-to("small") {
+        @include mixins.respond-to("small") {
             columns: 1;
         }
         @media print {

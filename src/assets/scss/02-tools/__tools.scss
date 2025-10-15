@@ -9,4 +9,6 @@
  *
  */
 
-@import "functions", "mixins", "responsive";
+@use "functions";
+@use "mixins";
+@use "responsive";

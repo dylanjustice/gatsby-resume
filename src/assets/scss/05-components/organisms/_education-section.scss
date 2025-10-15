@@ -1,9 +1,11 @@
+@use "../../02-tools/mixins";
+
 .o-education-section {
-    @include margin(auto auto 24px auto);
+    margin: auto auto 24px auto;
     display: flex;
     align-content: flex-start;
     justify-content: space-between;
-    @include respond-to("small") {
+    @include mixins.respond-to("small") {
         display: block;
     }
     @media print {

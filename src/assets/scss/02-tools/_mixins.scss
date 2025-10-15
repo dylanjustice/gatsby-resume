@@ -1,3 +1,7 @@
+@use "sass:map";
+@use "../01-settings/breakpoints";
+@use "../01-settings/fonts";
+
 @mixin animation($value) {
     -webkit-animation: $value;
     -moz-animation: $value;
@@ -49,11 +53,11 @@
     @if $family {
         font-family: $family;
     } @else {
-        font-family: $font-primary;
+        font-family: fonts.$font-primary;
     }
 
     @if $size {
-        font-size: map-get($font-sizes, $size);
+        font-size: map.get(fonts.$font-sizes, $size);
     }
     @if $color {
         color: $color;
@@ -81,8 +85,8 @@
 }
 
 @mixin respond-to($media) {
-    @if map-has-key($breakpoints, $media) {
-        @media (max-width: map-get($breakpoints, $media)) {
+    @if map.has-key(breakpoints.$breakpoints, $media) {
+        @media (max-width: map.get(breakpoints.$breakpoints, $media)) {
             @content;
         }
     } @else if $media == non-retina {

@@ -1,8 +1,10 @@
+@use "../../02-tools/mixins";
+
 .m-links {
     ul {
         list-style-type: none;
         columns: 2;
-        @include respond-to("small") {
+        @include mixins.respond-to("small") {
             columns: 1;
         }
     }

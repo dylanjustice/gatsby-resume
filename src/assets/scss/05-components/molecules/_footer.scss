@@ -1,8 +1,10 @@
+@use "../../02-tools/functions";
+
 .m-footer {
-    border-top: 8px solid get-color-primary("e-e-blue");
+    border-top: 8px solid functions.get-color-primary("e-e-blue");
     width: 100%;
     height: 150px;
-    background-color: get-color-background("secondary");
+    background-color: functions.get-color-background("secondary");
     //   @media print {
     //     position: fixed;
     //     height: 2cm;

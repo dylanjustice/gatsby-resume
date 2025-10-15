@@ -23,10 +23,10 @@
  * An area that is focused on overriding default styles without the use of !important
  */
 
-@import "00-vendor/__vendor";
-@import "01-settings/__settings";
-@import "02-tools/__tools";
-@import "03-generic/__generic";
-@import "04-elements/__elements";
-@import "05-components/__components";
-@import "06-trumps/__trumps";
+@use "00-vendor/__vendor";
+@use "01-settings/__settings";
+@use "02-tools/__tools";
+@use "03-generic/__generic";
+@use "04-elements/__elements";
+@use "05-components/__components";
+@use "06-trumps/__trumps";

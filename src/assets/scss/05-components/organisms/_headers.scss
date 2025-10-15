@@ -1,10 +1,13 @@
+@use "../../02-tools/functions";
+@use "../../02-tools/mixins";
+
 .o-header {
-    border-bottom: 8px solid get-color-primary("e-e-blue");
+    border-bottom: 8px solid functions.get-color-primary("e-e-blue");
     display: flex;
     flex-wrap: wrap;
-    background-color: get-color-background("secondary");
+    background-color: functions.get-color-background("secondary");
 
-    @include respond-to("small") {
+    @include mixins.respond-to("small") {
         display: block;
     }
     @media print {
@@ -13,7 +16,7 @@
 
     &__left {
         width: 60%;
-        @include respond-to("small") {
+        @include mixins.respond-to("small") {
             width: 100%;
         }
         @media print {

@@ -1,21 +1,23 @@
+@use "../../02-tools/functions";
+
 .t-resume-layout {
     > .o-header {
-        @include padding(16px 40px);
+        padding: 16px 40px;
     }
     &__section {
-        @include padding(12px 40px);
+        padding: 12px 40px;
         > h2 {
-            border-bottom: 1px solid get-color-text("dark");
+            border-bottom: 1px solid functions.get-color-text("dark");
         }
 
         > .m-objectives {
-            @include padding(0 30px);
+            padding: 0 30px;
         }
         > .m-skills {
-            @include padding(0 30px);
+            padding: 0 30px;
         }
         > .o-experience-section {
-            @include margin(0 0 40px 0);
+            margin: 0 0 40px 0;
             &:last-of-type {
                 margin-bottom: 0;
             }

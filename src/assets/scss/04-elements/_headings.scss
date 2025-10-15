@@ -1,64 +1,68 @@
+@use "../01-settings/fonts";
+@use "../02-tools/functions";
+@use "../02-tools/mixins";
+
 /*------------------------------------*\
   HEADINGS
 \*------------------------------------*/
 
 h1 {
-    @include font-style(
-        $font-primary,
+    @include mixins.font-style(
+        fonts.$font-primary,
         "largest",
-        get-color-text("dark"),
+        functions.get-color-text("dark"),
         600,
         50px
     );
 }
 
 h2 {
-    @include font-style(
-        $font-primary,
+    @include mixins.font-style(
+        fonts.$font-primary,
         "larger",
-        get-color-text("dark"),
+        functions.get-color-text("dark"),
         600,
         40px
     );
-    @include margin(null null 16px null);
+    margin-bottom: 16px;
 }
 
 h3 {
-    @include font-style(
-        $font-primary,
+    @include mixins.font-style(
+        fonts.$font-primary,
         "large",
-        get-color-text("dark"),
+        functions.get-color-text("dark"),
         600,
         32px
     );
-    @include margin(null null 16px null);
+    margin-bottom: 16px;
 }
 
 h4 {
-    @include font-style(
-        $font-primary,
+    @include mixins.font-style(
+        fonts.$font-primary,
         "small",
-        get-color-text("dark"),
+        functions.get-color-text("dark"),
         600,
         16px
     );
 }
 
 h5 {
-    @include font-style(
-        $font-primary,
+    @include mixins.font-style(
+        fonts.$font-primary,
         "smaller",
-        get-color-text("dark"),
+        functions.get-color-text("dark"),
         600,
         14px
     );
 }
 
 h6 {
-    @include font-style(
-        $font-primary,
+    @include mixins.font-style(
+        fonts.$font-primary,
         "smallest",
-        get-color-text("dark"),
+        functions.get-color-text("dark"),
         600,
         12px
     );

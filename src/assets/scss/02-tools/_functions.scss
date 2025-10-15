@@ -1,3 +1,8 @@
+@use "sass:map";
+@use "../01-settings/colors";
+@use "../01-settings/fonts";
+@use "../01-settings/icons";
+
 /// Credit andculture
 /// https://github.com/AndcultureCode/andculture-website-netlify/blob/master/src/scss/02-tools/_functions.scss
 /// Adapted for e&e Technical Consultants
@@ -6,7 +11,7 @@
 // ------------------------------------
 
 @function get-color($palette: "primary", $color: "e-e-blue") {
-    @return map-get(map-get($colors, $palette), $color);
+    @return map.get(map.get(colors.$colors, $palette), $color);
 }
 
 @function get-color-primary($color: "e-e-blue") {
@@ -34,18 +39,18 @@
 // ------------------------------------
 
 @function get-font-size($size: "base") {
-    @if not map-has-key($font-sizes, $size) {
+    @if not map.has-key(fonts.$font-sizes, $size) {
         @return $size;
     }
 
-    @return map-get($font-sizes, $size);
+    @return map.get(fonts.$font-sizes, $size);
 }
 
 // Icon Functions
 // ------------------------------------
 
 @function get-icon($icon) {
-    @return map-get($icons, $icon);
+    @return map.get(icons.$icons, $icon);
 }
 
 /// End credit andculture

@@ -9,4 +9,8 @@
  *
  */
 
-@import "breakpoints", "colors", "fonts", "icons", "grid";
+@use "breakpoints";
+@use "colors";
+@use "fonts";
+@use "icons";
+@use "grid";

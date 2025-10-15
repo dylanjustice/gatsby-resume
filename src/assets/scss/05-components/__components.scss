@@ -6,7 +6,7 @@
  *
  */
 
-@import "atoms/_atoms";
-@import "molecules/_molecules";
-@import "organisms/_organisms";
-@import "templates/resume-layout";
+@use "atoms/_atoms";
+@use "molecules/_molecules";
+@use "organisms/_organisms";
+@use "templates/resume-layout";
