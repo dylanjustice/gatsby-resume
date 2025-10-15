@@ -14,11 +14,15 @@ const Header: React.FunctionComponent<Contact> = (props) => {
             <div className="o-header__right">
                 <div className="m-contact">
                     <div className="m-contact__label">Email:</div>
-                    <div className="m-contact__value">{email}</div>
+                    <a className="m-contact__value" href={`mailto:${email}`}>
+                        {email}
+                    </a>
                 </div>
                 <div className="m-contact">
                     <div className="m-contact__label">Phone:</div>
-                    <div className="m-contact__value">{phone}</div>
+                    <a className="m-contact__value" href={`tel:${phone}`}>
+                        {phone}
+                    </a>
                 </div>
                 <div className="m-contact">
                     <div className="m-contact__label">Location:</div>
