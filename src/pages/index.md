@@ -57,6 +57,9 @@ workExperience:
           - Embedded on Azure Architecture Team to establish best practices, governance patterns, and secure design for multi-tenant workloads.
           - Developed a centralized event-driven system unifying CloudWatch, Azure Monitor, Splunk, and Coralogix events into a normalized schema for automation and incident routing.
           - Built an internal developer portal using Backstage to promote platform standardization, service catalog awareness, and onboarding automation.
+          - Pioneered LexisNexis's first SLO program across a global estate of hundreds of services; led vision and implementation, onboarding 3 teams with 6 defined SLOs and conducting user experience interviews to ensure error budgets reflect genuine customer impact rather than infrastructure proxies.
+          - Engineered a Splunk logs-to-metrics Prometheus exporter to bridge observability gaps for teams without native instrumentation, and deployed a Kubernetes-hosted Prometheus TSDB with Thanos for 13+ months of long-term recording rule storage — projecting ~$15K total cost over 3 years as the program scales to hundreds of services.
+          - Established an engineer-centric SLO adoption model, designing error budget policies that deliver direct value to development teams; this critical insight ensures the program sustains buy-in and operates effectively at organizational scale.
 
     - company: andculture
       location: Harrisburg, PA
