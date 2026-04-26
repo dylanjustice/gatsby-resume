@@ -34,7 +34,8 @@ skills:
     - Kubernetes / EKS / ArgoCD
     - Terraform / CloudFormation
     - Jenkins / Azure DevOps
-    - OpenTelemetry / Coralogix / Datadog
+    - OpenTelemetry / Coralogix / Datadog / Splunk
+    - Prometheus / Thanos
     - Golang / Python / C# (.NET)
     - Event Driven Architectures
     - Observability / Incident Management
