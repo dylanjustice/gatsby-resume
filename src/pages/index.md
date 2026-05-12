@@ -21,17 +21,14 @@ links:
       icon: Profile
 
 objectives:
-    - Platform-focused Site Reliability Engineer with deep experience designing and operating production-grade systems across AWS and Azure.
-    - Passionate about shaping technology strategy, standardizing architectures, and building high-leverage platforms that enable developer velocity and operational excellence.
-    - Experienced in establishing golden paths, observability frameworks, and infrastructure automation standards that scale across large organizations.
-    - Focused on pragmatic design — creating simple, cost-effective, and reliable systems that empower teams to deliver faster.
-    - Strong communicator with experience influencing cross-functional stakeholders and leading post-incident retrospectives to drive systemic improvement.
-    - Technology blogger and lifelong learner who values continuous improvement, data-driven decisions, and the craft of reliable software delivery.
+    - Production-focused platform engineer with deep experience across the full operational stack - cloud infrastructure, Kubernetes, observability, and reliability engineering. Equally comfortable working with application engineers on instrumentation strategy and with operators on incident response and systemic improvement.
+    - Driven by the space between developer velocity and user experience. Passionate about building the platforms, pipelines, and reliability frameworks that let engineering teams ship fast without the end user ever knowing something broke.
+    - Experienced across AWS and Azure cloud services, Kubernetes at production scale, and observability tooling from collector infrastructure to SLO design. Comfortable moving through any problem - applications, networking, or cloud primitives - and bringing structure to ambiguity.
 
 skills:
     - AWS Cloud Platform
     - Azure Cloud Platform
-    - Kubernetes / EKS / ArgoCD
+    - Kubernetes / EKS / ArgoCD / GitOps
     - Terraform / CloudFormation
     - Jenkins / Azure DevOps
     - OpenTelemetry / Coralogix / Datadog / Splunk
@@ -48,27 +45,26 @@ workExperience:
       dates: August 2021 - Present
       title: Consulting Site Reliability Engineer
       responsibilities:
-          - Defined platform architecture standards across AWS and Azure, focusing on reliability, scalability, and developer enablement.
-          - Standardized GitOps workflows using ArgoCD ApplicationSets, allowing seamless workload onboarding and deployment consistency across business units.
-          - Designed and implemented an organization-wide observability framework using OpenTelemetry, reducing APM costs by 30% and improving trace correlation and sampling efficiency.
-          - Led the technical design and operational readiness of AI-based products leveraging AWS Bedrock and Azure OpenAI, supporting multi-region deployments and data residency compliance.
-          - Developed a CloudFormation Resource Extension to integrate Coralogix alerting, enabling automated deployment of RED metrics via IaC pipelines.
-          - Established a Terraform module registry with automated testing via Terratest, documentation, and CI/CD pipelines for scalable IaC reuse.
-          - Served as Incident Commander for the global platform, leading technical resolution of high-impact production incidents and postmortem retrospectives.
-          - Embedded on Azure Architecture Team to establish best practices, governance patterns, and secure design for multi-tenant workloads.
-          - Developed a centralized event-driven system unifying CloudWatch, Azure Monitor, Splunk, and Coralogix events into a normalized schema for automation and incident routing.
-          - Built an internal developer portal using Backstage to promote platform standardization, service catalog awareness, and onboarding automation.
-          - Pioneered LexisNexis's first SLO program across a global estate of hundreds of services; led vision and implementation, onboarding 3 teams with 6 defined SLOs and conducting user experience interviews to ensure error budgets reflect genuine customer impact rather than infrastructure proxies.
-          - Engineered a Splunk logs-to-metrics Prometheus exporter to bridge observability gaps for teams without native instrumentation, and deployed a Kubernetes-hosted Prometheus TSDB with Thanos for 13+ months of long-term recording rule storage — projecting ~$15K total cost over 3 years as the program scales to hundreds of services.
-          - Established an engineer-centric SLO adoption model, designing error budget policies that deliver direct value to development teams; this critical insight ensures the program sustains buy-in and operates effectively at organizational scale.
+          - Pioneered LexisNexis's first SLO program, leading vision, architecture, and implementation from the ground up. Partnered with engineering and operations teams to define SLIs representing critical customer journeys for the Protege AI product release, and designed error budget policies that balanced accountability with developer buy-in. Reached initial production deployment before organizational priorities shifted.
+          - Defined the SRE strategic pillars and engagement model for a team of 16 Site Reliability Engineers.
+          - Designed and operated the central OpenTelemetry collector infrastructure supporting the organization's migration from Datadog to Coralogix, evolving the platform from an ECS Fargate deployment to a production EKS StatefulSet. Responsible for collector configuration, routing pipelines, and sampling strategy across the global observability stack.
+          - Engineered a Splunk logs-to-metrics Prometheus exporter to bridge observability gaps for legacy-instrumented services, and deployed a Kubernetes-hosted Prometheus TSDB with Thanos for 13+ months of long-term SLO metric storage - projecting ~$15K total cost over 3 years as the program scales to hundreds of services.
+          - Established and maintained a centralized developer portal using Backstage, consolidating over 700 runbooks from disparate Confluence pages into a git-backed TechDocs system with audit processes. Implemented software templates for Lambda, ECS, and EKS services encoding standard deployment patterns for developer self-service.
+          - Built a Terraform module registry of 95 standardized modules covering AWS and other providers, forming the foundation for organization-wide IaC reuse. Modules were adopted as the basis of a separate team's MassDriver platform implementation.
+          - Standardized GitOps workflows using ArgoCD ApplicationSets, enabling seamless workload onboarding and consistent deployment patterns across business units. Patterns were adopted as the standard for EKS service delivery.
+          - Developed a CloudFormation Resource Extension integrating Coralogix alerting, enabling automated deployment of RED metrics via IaC pipelines.
+          - Developed a centralized event-driven system normalizing CloudWatch, Azure Monitor, Splunk, and Coralogix events into a unified schema for incident routing and automation.
+          - Served as Incident Commander for the global platform throughout tenure, leading technical resolution of high-impact production incidents and driving systemic improvement through postmortem retrospectives.
+          - Embedded on Azure Architecture Team to establish governance patterns and secure design standards for multi-tenant workloads.
+          - Led technical design and operational readiness of AI-based products on AWS Bedrock and Azure OpenAI, supporting multi-region deployments and data residency compliance.
 
     - company: andculture
       location: Harrisburg, PA
       dates: January 2018 - August 2021
       title: Senior Software Engineer / Technical Lead
       responsibilities:
+          - Architected and developed NFPA LiNK, a digital content platform that transformed NFPA's fire safety code library from physical print distribution to an online and offline accessible platform for electricians and safety professionals. Built on .NET Core, React, and MS SQL Server using Onion architecture for long-term maintainability.
           - Led a team of 5 engineers delivering large-scale web applications for clients including UPMC Pinnacle, PA Courts, and Commonwealth Charter Academy.
-          - Architected and developed NFPA’s digital transformation platform using .NET Core, React, and MS SQL Server, applying Onion architecture for maintainability and scalability.
           - Managed AWS infrastructure and CI/CD automation using Elastic Beanstalk, Jenkins, and S3 to streamline deployments and reduce release lead times.
           - Implemented trunk-based development workflows and continuous integration pipelines to reduce delivery friction across multiple teams.
           - Supported Azure and Sitefinity CMS deployments using Terraform and Azure DevOps, enabling consistent and automated multi-environment releases.
