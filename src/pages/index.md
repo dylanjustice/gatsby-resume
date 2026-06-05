@@ -33,6 +33,8 @@ skills:
     - Jenkins / Azure DevOps
     - OpenTelemetry / Coralogix / Datadog / Splunk
     - Prometheus / Thanos
+    - LLM Infrastructure / Model Serving
+    - AWS Bedrock / Azure OpenAI
     - Golang / Python / C# (.NET)
     - Event Driven Architectures
     - Observability / Incident Management
@@ -56,18 +58,23 @@ workExperience:
           - Developed a centralized event-driven system normalizing CloudWatch, Azure Monitor, Splunk, and Coralogix events into a unified schema for incident routing and automation.
           - Served as Incident Commander for the global platform throughout tenure, leading technical resolution of high-impact production incidents and driving systemic improvement through postmortem retrospectives.
           - Embedded on Azure Architecture Team to establish governance patterns and secure design standards for multi-tenant workloads.
-          - Led technical design and operational readiness of AI-based products on AWS Bedrock and Azure OpenAI, supporting multi-region deployments and data residency compliance.
+          - Supported operational readiness and AWS infrastructure setup for the initial launch of Lexis+ AI, establishing environment standards and deployment patterns for AI-backed product teams on AWS Bedrock and Azure OpenAI.
+          - Established production readiness standards for RAG-based AI workloads developed by data science teams, implementing OpenTelemetry auto-instrumentation for FastAPI services, RED metric monitoring in coralogix, and operational review requirements for AI-backed applications going to production.
+          - Responsible for production operations and observability for an internal LLM proxy supporting multi-provider model routing across AWS Bedrock, Anthropic, OpenAI, Azure AI Foundry, Mistral, and Google. Enabling standardized AI workload access for engineering teams across the organization.
+          - Established the initial model serving infrastructure pattern for GPU-based inference workloads, provisioning dedicated GPU node groups and deploying containerized model serving via Docker Compose with S3-backed model storage.
 
     - company: andculture
       location: Harrisburg, PA
       dates: January 2018 - August 2021
       title: Senior Software Engineer / Technical Lead
       responsibilities:
-          - Architected and developed NFPA LiNK, a digital content platform that transformed NFPA's fire safety code library from physical print distribution to an online and offline accessible platform for electricians and safety professionals. Built on .NET Core, React, and MS SQL Server using Onion architecture for long-term maintainability.
-          - Led a team of 5 engineers delivering large-scale web applications for clients including UPMC Pinnacle, PA Courts, and Commonwealth Charter Academy.
-          - Managed AWS infrastructure and CI/CD automation using Elastic Beanstalk, Jenkins, and S3 to streamline deployments and reduce release lead times.
-          - Implemented trunk-based development workflows and continuous integration pipelines to reduce delivery friction across multiple teams.
-          - Supported Azure and Sitefinity CMS deployments using Terraform and Azure DevOps, enabling consistent and automated multi-environment releases.
+          - Led architecture and delivery of NFPA LiNK, a greenfield digital platform transforming NFPA's fire safety code library from print distribution to a fully searchable, offline-capable web application serving 10,000 subscribers in the first 3 months. Reverse engineered a complex DITA/XML schema from MarkLogic source files to design a relational data model supporting 300+ codes and standards with full version history across edition cycles. Built a Hangfire-orchestrated parallel import pipeline processing vendor-supplied archive diffs into the relational model, shipping the full platform in 11 months.
+          - Delivered offline capability via progressive web app architecture with SQLite for local storage and Lunr.js for client-side full-text search across the full code library.
+          - Built and led a team of 5 engineers with a focus on craft and security fundamentals. Established regular code review sessions to expand skills. Conducted 1:1s and performance development cycles. Invested in individual growth through structured feedback and mentorship.
+          - Led a complete frontend rebuild of UPMC Pinnacle's web presence, rearchitecting a legacy ASPX/CoffeeScript codebase with a ground-up ITCSS design system and modern layout structure.
+          - Built fullstack curriculum features for Edio, a production LMS platform serving Commonwealth Charter Academy, one of Pennsylvania's largest charter school networks.
+          - Developed the company's first Terraform pipeline to Azure for PA Turnpike Sitefinity CMS deployments, enabling consistent and automated multi-environment releases.
+          - Managed AWS infrastructure and CI/CD automation using Elastic Beanstalk, Jenkins, and S3 to streamline deployments and reduce release lead times across multiple client projects.
 
     - company: Computer Aid Inc.
       location: Harrisburg, PA
