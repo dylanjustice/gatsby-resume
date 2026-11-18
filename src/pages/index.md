@@ -48,7 +48,7 @@ workExperience:
     - company: LexisNexis
       location: Mechanicsburg, PA (Home Based)
       dates: August 2021 - Present
-      title: Consulting Site Reliability Engineer
+      title: Principal Site Reliability Engineer
       responsibilities:
           - Pioneered LexisNexis's first SLO program, leading vision, architecture, and implementation from the ground up. Defined SLIs representing critical customer journeys for the Protege AI product release and designed error budget policies that balanced accountability with developer buy-in. Reached initial production deployment before organizational priorities shifted. Restarted in October 2026 under new leadership with 8 Protege reliability SLOs now defined and active.
           - Defined the SRE strategic pillars and engagement model for a team of 16 Site Reliability Engineers across multiple business units.
