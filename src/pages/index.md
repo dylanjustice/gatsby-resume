@@ -47,19 +47,29 @@ workExperience:
       dates: August 2021 - Present
       title: Consulting Site Reliability Engineer
       responsibilities:
-          - Pioneered LexisNexis's first SLO program, leading vision, architecture, and implementation from the ground up. Defined SLIs representing critical customer journeys for the Protege AI product release and designed error budget policies that balanced accountability with developer buy-in. Reached initial production deployment before organizational priorities shifted.
+          - Pioneered LexisNexis's first SLO program, leading vision, architecture, and implementation from the ground up. Defined SLIs representing critical customer journeys for the Protege AI product release and designed error budget policies that balanced accountability with developer buy-in. Reached initial production deployment before organizational priorities shifted. Restarted in October 2026 under new leadership with 8 Protege reliability SLOs now defined and active.
           - Defined the SRE strategic pillars and engagement model for a team of 16 Site Reliability Engineers across multiple business units.
-          - Designed and operated the central OpenTelemetry collector infrastructure supporting the organization's migration from Datadog to Coralogix, evolving the platform from ECS Fargate to a production EKS StatefulSet with custom routing pipelines and sampling strategy across the global observability stack.
+          - Designed and operated the central OpenTelemetry collector infrastructure supporting the organization's migration from Datadog to Coralogix, evolving the platform from ECS Fargate to a production EKS StatefulSet with custom routing pipelines and sampling strategy across the global observability stack. Responsible for collector configuration across 2000+ services.
           - Engineered a Splunk logs-to-metrics Prometheus exporter to bridge observability gaps for legacy-instrumented services. Deployed a Kubernetes-hosted Prometheus TSDB with Thanos for 13+ months of long-term SLO metric retention, projecting only about $15K total cost over 3 years as the program scales to hundreds of services.
           - Extended observability coverage for AI workloads through direct application instrumentation in Python and .NET. Implemented OTel GenAI semantic convention metrics for the LLM proxy including provider call latency, token usage, in-flight request gauges, and circuit breaker state tracking. Added time-to-first-byte instrumentation for AI chat interfaces and re-instrumented a legacy .NET telemetry library to emit standardized OTel metrics while preserving the existing developer interface.
           - Responsible for production operations and observability for an internal LLM proxy supporting multi-provider model routing across AWS Bedrock, Anthropic, OpenAI, Azure AI Foundry, Mistral, and Google - enabling standardized AI workload access for engineering teams across the organization.
           - Established production readiness standards for RAG-based AI workloads and GPU-based model serving infrastructure. Implemented OTel auto-instrumentation for FastAPI services, RED metric monitoring, and operational review gates for AI-backed applications. Provisioned dedicated GPU node groups with Docker Compose and S3-backed model storage for inference workloads.
-          - Built an event-driven CloudWatch alarm routing system in Go, using SNS fan-out to SQS and Lambda with a pluggable handler pattern to route alerts across 100+ AWS accounts to ServiceNow and custom automations including MarkLogic circuit breaking and failover.
-          - Developed a concurrent Go automation to protect production ECR images from lifecycle policy deletion, using parallel workers fanning out across the full AWS organization to reconcile images in use across Lambda, ECS, and EKS workloads by applying protective tags.
-          - Established and maintained a centralized developer portal using Backstage, consolidating over 700 runbooks into a git-backed TechDocs system. Implemented software templates for Lambda, ECS, and EKS services encoding standard deployment patterns for developer self-service.
+          - Rewrote the organization's CloudWatch alarm routing system from Python to Go, shipping a self-service org-wide platform in July 2026. The system deploys an SNS topic to every AWS account via StackSets that application teams point their alarm actions at, routing alerts through a predicate handler to ServiceNow, MS Teams, email, and custom automations including LLM proxy failover - without any per-team setup.
+          - Led the Agentic Development Platform initiative on AWS AgentCore and Strands, delivering the initial platform in one week and growing it into an orchestrator, discovery agent, runbook agent, operational readiness agent, authentication layer, gateway policy engine, and CLI.
+          - Established and maintained a centralized developer portal using Backstage, consolidating over 700 runbooks into a git-backed TechDocs system. Implemented software templates for Lambda, ECS, and EKS services encoding standard deployment patterns for developer self-service. Active maintainer with 158 commits in 2026 covering framework upgrades, plugin migrations, GitHub migrations, security remediations, and notification systems.
           - Built a Terraform module registry of 95 standardized modules covering AWS and other providers, adopted as the foundation for a separate team's MassDriver platform implementation.
           - Standardized GitOps workflows using ArgoCD ApplicationSets across business units, adopted as the standard for EKS service delivery organization-wide.
           - Served as Incident Commander for the global platform, leading technical resolution of high-impact production incidents and driving systemic improvement through blameless postmortem retrospectives.
+
+    - company: Downlink Labs
+      location: Open Source
+      dates: 2026 - Present
+      title: Creator and Maintainer
+      responsibilities:
+          - Built Downlink as a lightweight alternative to Datadog and Checkly - synthetic monitoring using Kubernetes primitives and Playwright so teams use the observability stack they already have.
+          - Monitor outputs are designed as SLI sources, enabling SLO definitions grounded in real user journey behavior rather than infrastructure proxies.
+          - Defined CRDs for monitor configuration, implemented a reconciliation controller managing the full monitor lifecycle, published a Helm chart, and deployed a per-namespace Prometheus Pushgateway for isolated, scrapeable metric output.
+          - Deployed on a single node EC2 k3s cluster over Tailscale, monitoring a live httpbin target with Playwright checks every 5 minutes and shipping metrics to Prometheus, visualized in Grafana.
 
     - company: andculture
       location: Harrisburg, PA
