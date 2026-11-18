@@ -13,6 +13,9 @@ links:
     - name: Github
       url: https://github.com/dylanjustice
       icon: Github
+    - name: Downlink
+      url: https://github.com/downlinklabs/downlink
+      icon: Github
     - name: Profile
       url: https://blog.dylanjustice.com
       icon: Earth
