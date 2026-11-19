@@ -95,13 +95,21 @@ workExperience:
           - Mentored a team of 8 developers to improve delivery efficiency and reduce production deployment errors through automation and standardized SQL release tooling.
           - Led cloud migration and hybrid hosting strategies across on-prem and managed environments, ensuring secure deployments and version tracking.
 
+certifications:
+    - title: AZ-900 Azure Fundamentals
+      description: "Microsoft"
+      link:
+          href: https://www.youracclaim.com/badges/37b51c02-0612-45e0-b9cc-68169d5b0f49/public_url
+          imgSrc: "/azure-administrator-associate-600x600.png"
+    - title: AZ-104 Azure Certified Administrator
+      description: "Microsoft"
+      link:
+          href: https://www.youracclaim.com/badges/4393c219-efa4-496e-85ee-b43c9edc2a07/public_url
+          imgSrc: "/microsoft-certified-azure-fundamentals.png"
+
 education:
-    - degree: B.S Energy Business and Finance
-      school: Penn State University
-      year: 2012
-      location: State College, PA
-    - degree: Minor Energy Engineering
-      school: Penn State University
-      year: 2012
-      location: State College, PA
+    - title: B.S Energy Business and Finance
+      description: Penn State University | 2012 | State College, PA
+    - title: Minor Energy Engineering
+      description: Penn State University | 2012 | State College, PA
 ---

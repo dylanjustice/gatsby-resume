@@ -5,6 +5,7 @@
     display: flex;
     align-content: flex-start;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     @include mixins.respond-to("small") {
         display: block;
     }
@@ -13,5 +14,11 @@
     }
     > .m-degree {
         flex-direction: column;
+        a {
+            text-decoration: none;
+            img {
+                vertical-align: text-bottom;
+            }
+        }
     }
 }

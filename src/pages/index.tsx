@@ -31,10 +31,16 @@ const IndexPage = () => {
                         title
                     }
                     education {
-                        degree
-                        location
-                        school
-                        year
+                        title
+                        description
+                    }
+                    certifications {
+                        title
+                        description
+                        link {
+                            href
+                            imgSrc
+                        }
                     }
                 }
             }

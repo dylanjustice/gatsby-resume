@@ -7,11 +7,11 @@ const Header: React.FunctionComponent<Contact> = (props) => {
     const { name, jobTitle, email, phone, address, links } = props;
     return (
         <header className="o-header">
-            <div className="o-header__left">
+            <div className="o-header__full">
                 <h1>{name}</h1>
-                <h3>{jobTitle}</h3>
             </div>
-            <div className="o-header__right">
+            <div className="o-header__left">
+                <h3>{jobTitle}</h3>
                 <div className="m-contact">
                     <div className="m-contact__label">Email:</div>
                     <a className="m-contact__value" href={`mailto:${email}`}>
@@ -29,7 +29,7 @@ const Header: React.FunctionComponent<Contact> = (props) => {
                     <div className="m-contact__value">{address}</div>
                 </div>
             </div>
-            <div className="o-header__full">
+            <div className="o-header__right">
                 <Links links={links} />
             </div>
         </header>

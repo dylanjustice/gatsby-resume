@@ -1,10 +1,10 @@
 import * as React from "react";
 
-import { Education } from "../../models/education";
-import Degree from "../molecules/degree";
+import { EducationItemDTO } from "../../models/education-item";
+import EducationItem from "../molecules/education-item";
 
 interface EducationSectionProps {
-    educations: Education[];
+    educations: EducationItemDTO[];
 }
 
 const EducationSection: React.FunctionComponent<EducationSectionProps> = (
@@ -13,7 +13,7 @@ const EducationSection: React.FunctionComponent<EducationSectionProps> = (
     return (
         <div className="o-education-section">
             {props.educations?.map((education, index) => (
-                <Degree key={index} {...education} />
+                <EducationItem key={index} {...education} />
             ))}
         </div>
     );
