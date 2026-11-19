@@ -67,7 +67,7 @@ workExperience:
     - company: Downlink Labs
       location: Open Source
       dates: 2026 - Present
-      title: Creator and Maintainer
+      title: Site Reliability Engineer
       responsibilities:
           - Built Downlink as a lightweight alternative to Datadog and Checkly - synthetic monitoring using Kubernetes primitives and Playwright so teams use the observability stack they already have.
           - Monitor outputs are designed as SLI sources, enabling SLO definitions grounded in real user journey behavior rather than infrastructure proxies.
